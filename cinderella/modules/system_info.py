@@ -62,8 +62,8 @@ def get_size(bytes, suffix="B"):
 def status(bot: Bot, update: Update):
 	chat = update.effective_chat
 	
-	stat = "--- System Status ---\n"
-	stat += f"Cinderella Version: `{VERSION}`""\n"
+	stat = "--- System Statistics ---\n"
+	stat += f"Lavisha 🦋: `{VERSION}`""\n"
 	stat += "Python Version: `"+python_version()+"`\n"
 	stat += "GitHub API Version: `"+str(git.vercheck())+"`\n"
 	#Software Info
